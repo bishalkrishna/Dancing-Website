@@ -1,0 +1,46 @@
+GO TO THE DESIRE DIRECTORY AND OPEN GIT-BASH
+								FOR PRIVATE
+1.git config --gobal user.name Harry
+
+2.git confit --global user.email "bishal.saha052002@gmail.com"
+
+3.touch .gitignore
+
+4.git init
+
+5.git add .
+
+
+6.git commit -m "Initial Commit"
+
+7.git status
+
+8.ssh-keygen -t rsa -b 4096 -C "Bishal.saha052002@gmail.com"
+
+9.cat  (/c/SPB_Data/.ssh/id_rsa.pub)-->for getting key{hint saved in------directory}
+
+10.tail(second line se)-->copy the key to your GitHub account
+
+11.git remote add origin (git@github.com:bishalkrishna/Dancing-Website.git)-->>gitssh url
+
+12.git push origin master
+
+								FOR PUBLIC
+
+1.git config --gobal user.name Harry
+
+2.git confit --global user.email "bishal.saha052002@gmail.com"
+
+3.touch .gitignore
+
+4.git init
+
+5.git add .
+
+6.git commit -m "Initial Commit"-->>any any text
+
+7.git status
+
+11.git remote add origin (git@github.com:bishalkrishna/Dancing-Website.git)-->>gitssh url
+
+12.git push origin master

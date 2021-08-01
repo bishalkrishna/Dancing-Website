@@ -8,7 +8,8 @@ mongoose.connect('mongodb://localhost/ContactDance',{useNewUrlParser:true,useUni
 
 // const fs=require("fs")
 
-const port=80;
+// const port=80;
+const port=process.env.PORT ||80;
 
 //define mongoose scheema
 const contactSchema = new mongoose.Schema({
